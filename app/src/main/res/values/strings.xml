@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">都道府県越境通知</string>
+
+    <string name="location_format">現在地:【 %1$s 】\n\n緯度: %2$.6f 経度: %3$.6f\n\n更新: %4$s</string>
+    <string name="volume_label_format">音声の音量: %1$d%%</string>
+    <string name="history_default">まだ履歴はありません</string>
+    <string name="location_default">現在地:【 --- 】</string>
+
+    <string name="about_message">
+        【アプリ名】\n
+        都道府県越境通知\n\n
+        【概要】\n
+        移動中に県境を越えると、東北ずん子が音声と振動でお知らせします。\n\n
+        【クレジット】\n
+        制作: @oppssidsure_\n
+        https://twitter.com/oppssidsure_ \n\n
+        キャラクター・音声素材: 東北ずん子\n
+        (C) 東北ずん子・ずんだもんプロジェクト\n\n
+        【ライセンス】\n
+        プログラム本体: MIT License\n
+    </string>
+</resources>
