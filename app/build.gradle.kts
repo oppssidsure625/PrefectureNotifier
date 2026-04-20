@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "xyz.oppssidsure.prefecturenotifier"
-    compileSdk = 36 // release(36)などの記述がエラーを招くことがあるため、安定版の34に揃えるのが無難です
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "xyz.oppssidsure.prefecturenotifier"
@@ -41,10 +41,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    // 位置情報
     implementation("com.google.android.gms:play-services-location:21.2.0")
-    // 地図の基本クラス（LatLng用）
     implementation("com.google.android.gms:play-services-maps:18.2.0")
-    // 県境判定用（PolyUtil用）
     implementation("com.google.maps.android:android-maps-utils:3.8.2")
 }
